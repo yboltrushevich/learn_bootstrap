@@ -1,3 +1,28 @@
+body {
+    font-size: 13px;
+}
+
 .container-fluid .row{
     margin-top: 70px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #EAFBE6;
+    border-color: gainsboro;
+    color: #487EFD;
+}
+
+a.list-group-item {
+    color: #487EFD;
+    border-color: gainsboro; 
+    padding-left: 10px;
+}
+
+a.list-group-item>span {
+    color: black;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+span.glyphicon-edit, span.glyphicon-remove  {
+    float: right;
 }
