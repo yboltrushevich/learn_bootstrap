@@ -16,13 +16,16 @@ a.list-group-item {
     color: #487EFD;
     border-color: gainsboro; 
     padding-left: 10px;
+    height: 50px;
 }
 
-a.list-group-item>span {
+a.list-group-item>div>span {
     color: black;
     margin-right: 5px;
     margin-right: 5px;
 }
-span.glyphicon-edit, span.glyphicon-remove  {
-    float: right;
+
+a.list-group-item>div {
+    padding-left: 0px; 
+    padding-right: 0px;
 }
