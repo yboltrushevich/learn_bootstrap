@@ -16,16 +16,30 @@ a.list-group-item {
     color: #487EFD;
     border-color: gainsboro; 
     padding-left: 10px;
-    height: 50px;
+    vertical-align: middle;
+    padding-left: 0px; 
+    padding-right: 0px;
+    position: relative;
+    height: auto;
 }
 
-a.list-group-item>div>span {
+a.list-group-item>span {
     color: black;
     margin-right: 5px;
     margin-right: 5px;
 }
 
-a.list-group-item>div {
-    padding-left: 0px; 
-    padding-right: 0px;
+span.remove-button {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+span.edit-button {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 10px;
 }
