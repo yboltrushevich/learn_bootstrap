@@ -6,40 +6,48 @@ body {
     margin-top: 70px;
 }
 
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    background-color: #EAFBE6;
+a.list-group-item {
     border-color: gainsboro;
-    color: #487EFD;
+    padding-left: 10px; 
+    padding-right: 10px;
+    position: relative;
+    vertical-align: middle;
 }
 
-a.list-group-item {
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #EAFBE6;
     color: #487EFD;
-    border-color: gainsboro; 
-    padding-left: 10px;
-    vertical-align: middle;
-    padding-left: 0px; 
-    padding-right: 0px;
-    position: relative;
-    height: auto;
+    border-color: gainsboro;
 }
 
 a.list-group-item>span {
     color: black;
-    margin-right: 5px;
-    margin-right: 5px;
+    margin: auto;
+    margin-top: -0.625em;
+    top: 50%;
+}
+
+a.list-group-item>span.menu-title {
+    margin-right: 40px;
+    margin-left: 20px;
+    color: #487EFD;
+    display: block;
 }
 
 span.remove-button {
     position: absolute;
-    right: 0;
+    right: 10px;
     width: 10px;
-    vertical-align: middle;
-    text-align: center;
 }
 
 span.edit-button {
     position: absolute;
-    right: 15px;
-    top: 0;
+    right: 25px;
+    width: 10px;
+}
+
+span.move-button {
+    position: absolute;
+    left: 10px;
     width: 10px;
 }
