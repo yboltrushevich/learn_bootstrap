@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/order_summary.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-3"></div>
+                <div class="col col-xs-6">
+                    <div class="content">
+                        <form class=order method="post">
+                            <fieldset>
+                                <legend>Order Summary</legend>
+                                <div class=subtotal>
+                                    <div class="form-group">
+                                        <label class="first-column">Subtotal</label>
+                                        <label class="first-column-normal"> (2 items)</label>
+                                        <label class="second-column">$1,598.00</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="first-column">Discounts</label>
+                                        <label class="second-column-red">$150.00</label>
+                                        <label class="first-column-nextline">BEAT150 has been applied</label>
+                                    </div>
+                                </div>
+                                <a href="" class="clear-link">Clear Coupon</a>      
+                            </fieldset>
+                            <fieldset>
+                                <legend></legend>
+                                <div class=subtotal>
+                                    <div class="form-group">
+                                        <label for="fullAmountRadio1" class="">
+                                            <input id="fullAmountRadio1" type="radio" value="1" name="fullAmount">Pay full amount today
+                                        </label>
+                                        <label class="second-column">$1,448.00</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="fullAmountRadio2" class="">
+                                            <input id="fullAmountRadio2" type="radio" value="2" name="fullAmount">Pay in installments
+                                        </label><span class="glyphicon glyphicon-info-sign"></span>
+                                        <span class="help-block">A one-time, non-refundable $25 fee will be applied with this option.</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn-default" href="#" role="button">Proceed to checkout</a>     
+                            </fieldset>
+                        </form>
+                        <div class="bottom">
+                            <a href="" class="learn-link">Learn about installment billing<span class="glyphicon glyphicon-info-sign"></a></span>
+                            <div class=text>Questions? Call 1-111-1111. We are here to help. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xs-3"></div>
+            </div>
+        </div>
+    </body>
+</html>

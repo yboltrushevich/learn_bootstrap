@@ -1,0 +1,109 @@
+body {
+    font-family: "Open Sans", Helvetica,Arial, sans-serif;
+    color: #777;
+}
+
+div.content {
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+    margin-top: 10px;
+}
+
+form.order {
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.05);
+    margin: 10px 15px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+form.order legend {
+    border: 0 0 1px solid #e3e3e3;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #777;
+    font-family: "Open Sans", Helvetica,Arial, sans-serif;
+}
+
+div.subtotal>div.form-group>label.second-column {
+    position:absolute;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.subtotal>div.form-group>label.first-column-normal {
+    font-weight: 500;
+}
+
+div.subtotal>div.form-group>label.second-column-red {
+    position:absolute;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    margin-bottom: 25px;
+}
+
+div.subtotal>div.form-group>label.first-column-nextline {
+    position:absolute;
+    left: 15px;
+    top: 135px;
+}
+
+form.order div.form-group:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+form.order a.clear-link {
+    float: right;
+    right: 15px;
+    border: 0 0 1px solid #e3e3e3;
+    color: #2895f1;
+    font-weight: bold;
+}
+
+.help-block {
+    color: #737373;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+span.glyphicon.glyphicon-info-sign {
+    margin-left: 2px;
+    color: #2895f1;
+}
+
+form.order a.btn.btn-default {
+    background: none repeat scroll 0 0 #ff8400;
+    color: white;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.bottom {
+    padding: 10px 15px 20px 15px;
+    margin-bottom: 40px;
+}
+
+div.bottom>a.learn-link {
+    float: right;
+    right: 30px;
+    color: #2895f1;
+    font-size: 12px;
+    margin-left:15px;
+}
+
+div.bottom>div.text {
+    float:right;
+    right: 15px;
+    font-weight: 700;
+    display: block;
+}
